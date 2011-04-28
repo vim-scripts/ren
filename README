@@ -1,15 +1,3 @@
-This is a mirror of http://www.vim.org/scripts/script.php?script_id=3555
+This script has been renamed to fso.
 
-Enable vim user to rename (or delete) file when cursor pass 
-over its filename/filepath.
-
-o Usage
-
-	Just type :REN or :DEL to rename or delete file under cursor       
-
-o Filenames/Filepaths recognition
-
-  1.Check that filename under cursor exists and is in an opened NERDTree buffer
-  2.Check that filename under cursor is readable
-  3.Check that path of opend buffer concated with filepath under cursor is readable
-  4.Check the current opened buffer exists and ask user to modify it.
+http://github.com/vim-scripts/fso
